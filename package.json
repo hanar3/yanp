@@ -1,0 +1,11 @@
+{
+  "name": "letter-rdp",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "^1.1.13"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

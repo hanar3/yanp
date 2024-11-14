@@ -1,15 +1,16 @@
-# letter-rdp
+## YANP
+Implements a recursive descent parser for a programming language called letter
 
-To install dependencies:
+## Tests
+✓ parses a NumericLiteral [0.36ms]
+✓ parses a StringLiteral inside double quotes [0.03ms]
+✓ parses a StringLiteral inside single quotes [0.02ms]
+✓ ignores whitespaces [0.05ms]
+✓ ignores single-line comments [0.02ms]
+✓ ignores multi-line comments [0.03ms]
+✓ parses multiple expressions [0.09ms]
+✓ parses a block expression
+✓ parses an empty block [0.22ms]
+✓ parses a nested block expression [0.12ms]
+✓ parses an empty statement [0.04ms]
 
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.1.31. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
